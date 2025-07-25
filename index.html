@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>FATE-Tracker SHB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>FATE-Tracker: Shadowbringers</h1>
+    <form id="fateForm">
+      <label>Name: <input type="text" name="name" required></label>
+      <fieldset>
+        <legend>FATE-Gebiete</legend>
+        <label><input type="checkbox" name="Seenland"> Seenland</label>
+        <label><input type="checkbox" name="Amh Araeng"> Amh Araeng</label>
+        <label><input type="checkbox" name="Wald von Rak'tika"> Rak'tika</label>
+        <label><input type="checkbox" name="Kholusia"> Kholusia</label>
+        <label><input type="checkbox" name="Il Mheg"> Il Mheg</label>
+        <label><input type="checkbox" name="Tempest"> Tempest</label>
+      </fieldset>
+      <label>Kommentar: <input type="text" name="kommentar"></label>
+      <button type="submit">Absenden</button>
+    </form>
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
