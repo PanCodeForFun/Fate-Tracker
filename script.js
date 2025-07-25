@@ -4,7 +4,7 @@ const status = document.getElementById('status');
 form.addEventListener('submit', e => {
   e.preventDefault();
   const data = new FormData(form);
-  fetch('YOUR_SCRIPT_URL_HERE', {
+  fetch('https://script.google.com/macros/s/AKfycby7nNirww-2FHf1-EvM6ob6LaQoL2crMSRxIUlMiZRCpF7B07CQpNzhHRw41XfzPA7g/exec', {
     method: 'POST',
     body: data
   })
